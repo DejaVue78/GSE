@@ -1,6 +1,6 @@
 // GSE Service Worker: App-Hülle offline verfügbar machen.
 // Bei einer neuen App-Version die Zahl hier erhöhen.
-const CACHE = 'gse-v7';
+const CACHE = 'gse-v8';
 const CORE = ['./', 'index.html', 'manifest.webmanifest', 'icon-192.png', 'icon-512.png'];
 
 self.addEventListener('install', (e) => {
